@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+    background: url(/images/bg2.jpg) no-repeat;
+	background-size: cover;
+	height: 150vh;
+}
+
+.navbar{
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 120px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+
+.text-block {
+	position: absolute;
+	top: 90px;
+	left: 575px;
+	font-size: 200%;
+	font-family: 'Roboto';
+	font-weight: bold;
+	color:blanchedalmond;
+	padding-left: 20px;
+	padding-right: 20px;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:blue;
+  }
+      
+.wrapper .container {
+        max-width: 1350px;
+        margin: auto;
+        position: relative;
+        top: 200px;
+	    left: 35px;
+    }
+      
+ .wrapper .container a {
+        text-decoration: none;
+        color: red;
+    }
+      
+ .wrapper a:hover {
+        color: mediumseagreen;
+    }
+      
+   .wrapper .container p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow:auto;
+ 
+    }
+    .wrapper .container .row {
+        margin: 0px -18px;
+        padding: 8px; 
+    }
+      
+    .wrapper .container .row > .column {
+        padding: 6px;
+    }
+      
+    .wrapper .container .column {
+        float:left;
+        width: 31%;
+    }
+      
+    .wrapper .container   .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+      
+    .wrapper .container  .content {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+      
+    @media screen and (max-width: 850px) {
+        .wrapper .container      .column {
+            width: 50%;
+        }
+    }
+ 
+    @media screen and (max-width: 400px) {
+        .wrapper .container      .column {
+            width: 100%;
+        }
+    }
+
+    
+.topnav {
+    overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    background-color: #001;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .topnav p{
+	text-align: center;
+	float: center;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 3px solid transparent;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 0px; 
+    right: 5px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:blueviolet; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 8px;
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
